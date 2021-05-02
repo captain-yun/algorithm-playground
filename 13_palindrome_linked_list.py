@@ -1,4 +1,0 @@
-#palindrome linked list
-
-list
-
