@@ -39,8 +39,3 @@ def count_completed(cur, progresses):
         else:
             can_move = False
     return count
-
-def remove_completed()
-
-if __name__ == "__main__":
-    solution([95, 90, 99, 99, 80, 99], [1, 1, 1, 1, 1, 1])

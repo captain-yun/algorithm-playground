@@ -1,4 +1,6 @@
 def remove_duplicate_letters1(s: str) -> str:
+    # cbacdcbc
+
     dict = {}
     a = list(s)
     s = list(s)
@@ -19,4 +21,9 @@ def remove_duplicate_letters1(s: str) -> str:
 
     return s
 
-def
+def remove_duplicate_letters(s: str) -> str:
+    answer = ''
+    for char in sorted(set(s)):
+        suffix = s[s.index(char):]
+        if set(suffix) == set(s):
+            s = char + suffix
